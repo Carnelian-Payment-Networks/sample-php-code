@@ -56,7 +56,7 @@ $result = $paynet->create_pay_page(array(
    
     
     //Website Information
-    "site_url" => "http://www.example.com",      //The requesting website be exactly the same as the website/URL associated with your PayTabs Merchant Account
+    "site_url" => "http://www.example.com",      //The requesting website be exactly the same as the website/URL associated with your PayNet Merchant Account
     'return_url' => "http://localhost/expressv2/successredirect.php",
     "cms_with_version" => "API USING PHP",
 
@@ -65,9 +65,4 @@ $result = $paynet->create_pay_page(array(
 
 echo "FOLLOWING IS THE RESPONSE: <br />";
 print_r ($result);
-// echo '<script type="text/javascript">
-//            window.location = "'.$result->payment_url.'"
-//       </script>';
-// $_SESSION['paytabs_api_key'] = $result->secret_key;
-
 ?>
