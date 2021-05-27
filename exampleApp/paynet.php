@@ -11,7 +11,8 @@ class paynet {
     private $merchant_email;
     private $secret_key;
 
-    function paynet($merchant_email, $secret_key) {
+    public function __construct($merchant_email, $secret_key) {
+
         $this->merchant_email = $merchant_email;
         $this->secret_key = $secret_key;
     }

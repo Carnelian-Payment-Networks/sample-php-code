@@ -15,9 +15,9 @@ $result = $paynet->create_pay_page(array(
     //Customer's Personal Information
     'merchant_email' => "email@example.com",
 	  'secret_key' => "nNqPdDtMxoj6ZxHOcqvejQk2v3YFlTNIGeyUS1Gpq0vqxdeJDKYXAiZ6lYLGRzpyNXsFZ95q9AQHO5rrPpoqIow4niLeRbNF8gk8",
-    'cc_first_name' => "john",          //This will be prefilled as Credit Card First Name
-    'cc_last_name' => "Doe",            //This will be prefilled as Credit Card Last Name
-    'cc_phone_number' => "0091",
+    'm_first_name' => "john",          //This will be prefilled as Credit Card First Name
+    'm_last_name' => "Doe",            //This will be prefilled as Credit Card Last Name
+    'm_phone_number' => "0091",
     'phone_number' => "33333333",
     'email' => "customer@gmail.com",
     
